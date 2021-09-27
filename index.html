@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Birthday</title>
+    <script src="/index.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 style="border-top-left-radius: 2rem; border-bottom-right-radius: 2rem;">
+        Hey.. Is your Birthday a lucky one ??
+    </h1>
+    <div>
+        <label>Birth Date : </label>
+        <input style="margin-left: 2rem;width: 390px;" type="date" id="birthdateId" name="birthdate" placeholder="Enter Birthdate"/>
+    </div>
+    <br />
+    <div style="margin-left: 25rem">
+        <label>Lucky Number : </label>
+        <input style="margin-left: 2rem;width: 390px;" name="luckyNumber" id="luckyNumberId" type="number" placeholder="Enter Lucky Number"/>
+    </div>
+    <button id="checkLuckyDate" onclick="clickEventHandler()">Check!!</button>
+    <div id="resultId"></div>
+</body>
+
+</html>
